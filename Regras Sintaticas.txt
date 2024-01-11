@@ -1,0 +1,17 @@
+G (Vt, Vn, P, S)
+
+----- Regras pra Operacao aritmetrica: ------------------------
+
+    EXPRESSAO -> EXPRESSAO OPERADOR TERMO | TERMO
+    TERMO -> identificador | numero
+    OPERADOR -> + | - | * | /  
+
+    Nota: Visto que tem recursividade a esquerda temos de
+    eliminar pra nao causar loop infinito na recursividade\
+    pra isso teremos:
+
+    EXPRESSAO -> TERMO EXPRESSAO_AUX
+    EXPRESSAO_AUX -> OPERADOR TERMO EXPRESSAO_AUX | &
+    TERMO -> identificador | numero
+    OPERADOR -> + | - | * | / 
+------------------------------------------------------------------

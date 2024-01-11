@@ -1,0 +1,45 @@
+        Relatorio sobre o projeto portugol
+
+*Bloco principal : 
+
+inicio {
+    //bloco de instruções
+}
+
+*Tipos de dados:
+    inteiro; real; char; string; logico;
+
+*Estrutura de controlo
+    - se (condicao) {//bloco de instruções}
+    
+    - se (condicao){
+        //bloco de instruções
+      }senao{
+        //bloco de instruções
+      }
+
+*Estruturas de repetição
+    enquanto (condicao) {
+        //bloco de instruções
+    }
+
+*Operadores Aritmetricos 
+    + ; - ; * ; /
+
+*Atribuicao
+    =
+
+*Operadores logicos
+    e ; ou ; !
+
+*Operadores Relacionais
+    == ; > ; < ; >= ; <= 
+
+*Fim de linha
+    ;
+
+*String:
+    "-----"
+
+*Char
+    '-'

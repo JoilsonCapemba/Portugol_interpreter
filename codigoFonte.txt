@@ -1,0 +1,12 @@
+inicio {
+    i = 23 + 5
+
+    string nome  "joi" #;
+    inteiro idade , bv , 2*3;
+
+    i + 4 - 4 / 5 5;
+
+    se (idade >= 18){
+        mostre("menor de idade");
+    }
+}
